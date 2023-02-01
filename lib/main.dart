@@ -1,3 +1,5 @@
+// ignore_for_file: camel_case_types
+
 import 'package:english_words/english_words.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -8,6 +10,17 @@ void main() {
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return namer_widget();
+  }
+}
+
+class namer_widget extends StatelessWidget {
+  const namer_widget({
+    super.key,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -48,3 +61,5 @@ class MyHomePage extends StatelessWidget {
     );
   }
 }
+
+widget({required List<Text> children}) async {}
