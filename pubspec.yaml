@@ -1,7 +1,7 @@
 name: namer_app
-description: A new Flutter Project
+description: A new Flutter project.
 
-publish to: 'none' # Remove this line if you wish to publish to pub.dev
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 
 version: 0.0.1+1
 
@@ -18,8 +18,9 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  
+
   flutter_lints: ^2.0.0
 
 flutter:
   uses-material-design: true
+
